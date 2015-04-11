@@ -15,4 +15,4 @@ def remove_html_markup(s):
                 
     return out
 
-print(remove_html_markup('<b>foo</b>'))
+print remove_html_markup("'<b>foo</b>'")
