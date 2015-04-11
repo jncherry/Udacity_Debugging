@@ -4,6 +4,7 @@ def remove_html_markup(s):
     out = ""
 
     for c in s:
+        assert tag or not quote
 
         if c == '<' and not quote:
             tag = True
